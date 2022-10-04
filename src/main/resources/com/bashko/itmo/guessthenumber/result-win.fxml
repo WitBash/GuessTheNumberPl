@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.effect.DropShadow?>
+
+<?import javafx.scene.text.Text?>
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="203.0" prefWidth="305.0" text="Result" xmlns:fx="http://javafx.com/fxml/1"
+            xmlns="http://javafx.com/javafx/17"
+            fx:controller="com.bashko.itmo.guessthenumber.ResultWinController">
+    <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="214.0" prefWidth="304.0">
+            <children>
+                <Button alignment="BOTTOM_CENTER" defaultButton="true" layoutX="132.0" layoutY="120.0"
+                        mnemonicParsing="false" text="OK" textAlignment="CENTER" onAction="#resultWinOK">
+                    <font>
+                        <Font size="14.0"/>
+                    </font>
+                    <opaqueInsets>
+                        <Insets/>
+                    </opaqueInsets>
+                    <effect>
+                        <DropShadow/>
+                    </effect>
+                </Button>
+                <Text layoutX="106.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You win!">
+                    <font>
+                        <Font size="24.0"/>
+                    </font>
+                </Text>
+            </children>
+        </AnchorPane>
+    </content>
+</TitledPane>
